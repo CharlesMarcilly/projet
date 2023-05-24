@@ -1,0 +1,74 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+}
+
+h1,
+nav p {
+  font-weight: bold;
+}
+
+._hero-section {
+  padding-top: 80px;
+}
+
+._hero-section ._text-box {
+  padding: 30px 0px;
+}
+
+._services-section .containerr .row {
+  margin: 15px 20px;
+}
+
+._services-section .containerr .card {
+  margin: 5px 0px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+._services-section .container .card:hover {
+  transform: scale(1.1); /*--scale permet de zoomer--*/
+  transition: 0.5s; /*--transition permet de faire un ralentis--*/
+}
+
+._myshadow {
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* A partir des écrans de tablette */
+@media screen and (min-width: 768px) {
+  ._hero-section {
+    padding-top: 0px;
+  }
+
+  ._hero-section ._text-box {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  ._services-section .contenair .row {
+    margin: 15px 150px;
+  }
+}
+
+/* -------Sert à rendre les images responsive */
+/* img {
+  object-fit: contain;
+  object-fit: cover;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+div {
+  background: url("bootstrap/images/hero-section.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
